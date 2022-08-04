@@ -100,7 +100,7 @@ export class RecipeEditComponent implements OnInit {
       'imagePath': new FormControl(recipeImagePath, Validators.required),
       'description': new FormControl(recipeDescription, Validators.required),
       'ingredients': recipeIngredients
-    })
+    });
   }
 
 }
